@@ -1,0 +1,188 @@
+/* navbar */
+.page-minecraft-content .navbar {
+    background: url(../../images/bg-navbar.png);
+    background-size: 28%;
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    z-index: 200;
+
+    padding: .9rem 5.5rem;
+
+    box-shadow: 0px 4px 7px rgba(0, 0, 0);
+
+    font-family: 'Press Start 2P', cursive;
+
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.page-minecraft-content .navbar:before {
+    content: "";
+    background: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -100;
+}
+
+.page-minecraft-content .navbar .navbar-content-init .navbar-brand {
+    width: 278px;
+}
+
+.page-minecraft-content .navbar .navbar-content-init .navbar-brand img {
+    width: 95%;
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav li {
+    display: flex;
+    align-items: center;
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav li+li {
+    padding-left: 3.5rem;
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav .active .nav-link img {
+    transition: .6s ease-in;
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav .active .nav-link:hover img {
+    transform: translateX(-13px) rotate(-360deg);
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav .nav-link .fa-arrow-right {
+    -webkit-animation: right-left 1s ease-in-out infinite alternate-reverse both;
+    animation: right-left 1s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes right-left {
+    0% {
+      transform: translateX(-2px);
+    }
+    100% {
+      transform: translateX(-7px);
+    }
+}
+
+@keyframes right-left {
+    0% {
+      transform: translateX(-2px);
+    }
+    100% {
+      transform: translateX(-7px);
+    }
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav li a {
+    transition: .2s;
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav li a:hover {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #84c94c;
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav .dropdown .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    color: #aea4a2 !important;
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 992px) {
+    .page-minecraft-content .navbar .navbar-content-init {
+        display: flex !important;
+        justify-content: space-between !important;
+    
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .page-minecraft-content .navbar {
+        padding: 0.7rem 1rem;
+    }
+
+    .page-minecraft-content .navbar .collapse .navbar-nav li+li {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-minecraft-content .navbar {
+        background-size: 50%;
+    }
+
+    .page-minecraft-content .navbar .navbar-content-init .navbar-brand {
+        width: 237px;
+    }
+
+    .page-minecraft-content .navbar .navbar-content-init .navbar-brand img {
+        width: 85%;
+    }
+
+    .page-minecraft-content .caousel-main {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .page-minecraft-content .navbar .navbar-content-init .navbar-brand {
+        width: 180px;
+    }
+}
+
+@media (max-width: 310px) {
+    .page-minecraft-content .navbar {
+        background-size: 100%;
+    }
+
+    .page-minecraft-content .navbar .navbar-content-init .navbar-brand {
+        width: 150px;
+    }
+
+    .page-minecraft-content .navbar .navbar-content-init .navbar-brand img {
+        width: 70%;
+    }
+
+    .page-minecraft-content .caousel-main {
+        margin-top: 4rem;
+    }
+}
+
+/* CAROUSEL */
+.page-minecraft-content .caousel-main {
+    background-color: black;
+}
+
+.page-minecraft-content .caousel-main .carousel {
+    width: 88%;
+
+    margin: auto;
+    text-align: center;
+}
+
+.page-minecraft-content .caousel-main .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+
+.page-minecraft-content .caousel-main .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 1.1rem;
+}
+
+/* CONTENT */
+
