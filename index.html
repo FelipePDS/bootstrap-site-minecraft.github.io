@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Com Bootstrap | Minecraft</title>
+    <title>Bootstrap | Minecraft</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/styles/bootstrap-grid.css">
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="assets/styles/webfonts/font-awesome/fontawesome-all.min.css">
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/images/icons/favicon.jpg">
+    <link rel="icon" href="assets/images/icons/favicon.png">
 </head>
 
 <body class="page-minecraft-content">
@@ -51,7 +51,7 @@
               data-aos-duration="600"
               data-aos-delay="300"
             >
-              <a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Voltar ao início"> 
+              <a class="nav-link" href="index.html"> 
                   <img src="assets/images/icons/Chest.png" alt="Home Minecraft">
                   Home
                   <span class="sr-only">(current)</span>
@@ -64,7 +64,7 @@
               data-aos-duration="600"
               data-aos-delay="400"
             >
-              <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" title="Veja um pouco sobre o Minecraft">Sobre</a>
+              <a class="nav-link" href="#about-container" data-toggle="tooltip" data-placement="bottom" title="Veja um pouco sobre o Minecraft">Sobre</a>
             </li>
             <li class="nav-item dropdown"
               data-aos="zoom-out-down"
@@ -77,9 +77,9 @@
                 Jogos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Minecraft</a>
-                <a class="dropdown-item" href="#">Minecraft Dungeon</a>
-                <a class="dropdown-item" href="#">Minecraft Earth</a>
+                <a class="dropdown-item" href="#minecraft-tradicional">Minecraft</a>
+                <a class="dropdown-item" href="#minecraft-dungeon">Dungeon</a>
+                <a class="dropdown-item" href="#minecraft-earth">Earth</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Jazz Ghost</a>
                 <a class="dropdown-item" href="#">Vinicius 13</a>
@@ -126,7 +126,7 @@
             <img src="assets/images/bg-carousel-3.jpg" class="d-block w-100" alt="background minecraft">
             <div class="carousel-caption d-none d-md-block">
               <h5>Youtubers e Streamers <i class="fab fa-twitch"></i></h5>
-              <p>Veja gameplays, jornadas e muito mais sobre minecraft.</p>
+              <p>Veja gameplays, seriados e muito mais sobre minecraft.</p>
             </div>
           </div>
         </div>
@@ -141,18 +141,137 @@
       </div>
     </div>
 
+    <div class="container-page row justify-content-center">
+      <div class="card text-white mb-3" id="about-container" style="max-width: 18rem;"
+        data-aos="zoom-out-up"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="100"
+        data-aos-duration="600"
+        data-aos-delay="200"
+      >
+        <div class="card-header"><i class="fa fa-gamepad"></i> &nbsp;<i class="far fa-comment-alt"></i></div>
+        <div class="card-body">
+          <h5 class="card-title">Sobre o Minecraft</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content</p>
+        </div>
+      </div>
+
+      <div class="card text-white mb-3" style="max-width: 18rem;"
+        data-aos="zoom-out-up"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="100"
+        data-aos-duration="600"
+        data-aos-delay="400"
+      >
+        <div class="card-header"><i class="fa fa-users"></i> &nbsp;<i class="fa fa-headset"></i></div>
+        <div class="card-body">
+          <h5 class="card-title">Espectadores</h5>
+          <p class="card-text">O jogo de <span data-toggle="counter-up">2011</span> teve momentos de auges e hoje ainda é extremamente jogado e há milhares de conteúdos pela internet, contando com cerca de <span data-toggle="counter-up">120</span> milhões de jogadores ativos mensais.</p>
+        </div>
+      </div>
+      
+      <div class="card text-white mb-3" style="max-width: 18rem;"
+        data-aos="zoom-out-up"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="100"
+        data-aos-duration="600"
+        data-aos-delay="600"
+      >
+        <div class="card-header"><i class="fab fa-xbox"></i> &nbsp;<i class="fab fa-playstation"></i> &nbsp;<i class="fab fa-java"></i> &nbsp;<i class="fa fa-mobile-alt"></i> &nbsp;<i class="fa fa-desktop"></i></div>
+        <div class="card-body">
+          <h5 class="card-title">Plataformas Para Jogar</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <section>
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-sm-6 col-md-3 col-lg-3 d-none d-md-block">
+              <div class="p-4">
+                <a href=""><img src="assets/images/minecraft-cover.jpg" alt="Capa de jogo do Minecraft" class="img-fluid"></a>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-9 col-lg-9" id="minecraft-tradicional">
+              <div class="p-4">
+                <h3 class="display-4">Minecraft Tradicional</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, cumque eaque. Dignissimos debitis iste deserunt ratione deleniti molestias mollitia consequatur, delectus aut quia error fugiat ullam, qui, nisi et sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus et minima illum obcaecati, delectus dolorum quidem ipsa doloremque quis maiores doloribus aperiam, ducimus placeat fugit enim fuga temporibus dicta? Iste? <a href="">Acessar site</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-sm-12 col-md-9 col-lg-9" id="minecraft-dungeon">
+              <div class="p-4">
+                <h3 class="display-4">Minecraft Dungeons</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, cumque eaque. Dignissimos debitis iste deserunt ratione deleniti molestias mollitia consequatur, delectus aut quia error fugiat ullam, qui, nisi et sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus et minima illum obcaecati, delectus dolorum quidem ipsa doloremque quis maiores doloribus aperiam, ducimus placeat fugit enim fuga temporibus dicta? Iste? <a href="">Acessar site</a></p>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-3 d-none d-md-block">
+              <div class="p-4">
+                <a href=""><img src="assets/images/minecraft-dungeons-cover.jpg" alt="Capa de jogo do Minecraft Dungeons" class="img-fluid"></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-sm-6 col-md-3 col-lg-3 d-none d-md-block">
+              <div class="p-4">
+                <a href=""><img src="assets/images/minecraft-earth-cover.jpg" alt="Capa de jogo do Minecraft Earth" class="img-fluid"></a>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-9 col-lg-9" id="minecraft-earth">
+              <div class="p-4">
+                <h3 class="display-4">Minecraft Earth</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, cumque eaque. Dignissimos debitis iste deserunt ratione deleniti molestias mollitia consequatur, delectus aut quia error fugiat ullam, qui, nisi et sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus et minima illum obcaecati, delectus dolorum quidem ipsa doloremque quis maiores doloribus aperiam, ducimus placeat fugit enim fuga temporibus dicta? Iste? <a href="">Acessar site</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="community-stream justify-content-center">
+      <div class="community-stream-container">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi repellendus dolorum, impedit dignissimos vel incidunt deserunt, repellat natus consequuntur veritatis sed laborum. Error autem ea recusandae odit, esse quod.</h1>
+      </div>
+    </div>
+ 
     <!-- Jquery and Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <script src="assets/scripts/bootstrap.bundle.js"></script>
     <script src="assets/scripts/bootstrap.js"></script>
+    <script src="assets/scripts/jquery.min.js"></script>
+    <script src="assets/scripts/jquery.scrollex.min.js"></script>
+    <script src="assets/scripts/jquery.scrolly.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="assets/scripts/scripts.js"></script>
 
     <!-- Data-Aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-
 
       $(function () {
         $('[data-toggle="tooltip"]').tooltip();

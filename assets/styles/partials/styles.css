@@ -1,7 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* scrollbar */
+::-webkit-scrollbar-track {
+    background-color: #1c1d26;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    background: #1c1d26;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(4, 211, 97, 0.4);
+    border-radius: .8rem;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(4, 211, 97);
+}
+::-webkit-scrollbar-button {
+    scrollbar-arrow-color: black;
+}
+
+.page-minecraft-content {
+    background: url(../../images/bg-body.png);
+}
+
 /* navbar */
 .page-minecraft-content .navbar {
-    background: url(../../images/bg-navbar.png);
-    background-size: 28%;
+    background: url(../../images/bg-body.png);
 
     width: 100%;
     position: fixed;
@@ -13,23 +39,12 @@
 
     padding: .9rem 5.5rem;
 
-    box-shadow: 0px 4px 7px rgba(0, 0, 0);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0);
 
-    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
 
     display: flex !important;
     justify-content: space-between !important;
-}
-
-.page-minecraft-content .navbar:before {
-    content: "";
-    background: rgb(0, 0, 0, 0.6);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -100;
 }
 
 .page-minecraft-content .navbar .navbar-content-init .navbar-brand {
@@ -46,15 +61,14 @@
 }
 
 .page-minecraft-content .navbar .collapse .navbar-nav li+li {
-    padding-left: 3.5rem;
+    padding-left: 4.5rem;
 }
 
 .page-minecraft-content .navbar .collapse .navbar-nav .active .nav-link img {
     transition: .6s ease-in;
-}
-
-.page-minecraft-content .navbar .collapse .navbar-nav .active .nav-link:hover img {
-    transform: translateX(-13px) rotate(-360deg);
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-right: .3px;
 }
 
 .page-minecraft-content .navbar .collapse .navbar-nav .nav-link .fa-arrow-right {
@@ -64,19 +78,19 @@
 
 @-webkit-keyframes right-left {
     0% {
-      transform: translateX(-2px);
+      transform: translateX(6px);
     }
     100% {
-      transform: translateX(-7px);
+      transform: translateX(11px);
     }
 }
 
 @keyframes right-left {
     0% {
-      transform: translateX(-2px);
+      transform: translateX(6px);
     }
     100% {
-      transform: translateX(-7px);
+      transform: translateX(11px);
     }
 }
 
@@ -89,8 +103,17 @@
     color: #84c94c;
 }
 
+.page-minecraft-content .navbar .collapse .navbar-nav .dropdown:hover {
+    cursor: pointer;
+}
+
+.page-minecraft-content .navbar .collapse .navbar-nav .dropdown:hover a {
+    color: #84c94c;
+    cursor: pointer;
+}
+
 .page-minecraft-content .navbar .collapse .navbar-nav .dropdown .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .page-minecraft-content .navbar .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
@@ -143,6 +166,15 @@
     .page-minecraft-content .navbar .navbar-content-init .navbar-brand {
         width: 180px;
     }
+
+    .page-minecraft-content .container-page {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .page-minecraft-content .container-page .card {
+        margin-left: 0 !important;
+    }
 }
 
 @media (max-width: 310px) {
@@ -166,10 +198,12 @@
 /* CAROUSEL */
 .page-minecraft-content .caousel-main {
     background-color: black;
+
+    margin-top: 3.5rem;
 }
 
 .page-minecraft-content .caousel-main .carousel {
-    width: 88%;
+    width: 81%;
 
     margin: auto;
     text-align: center;
@@ -185,4 +219,56 @@
 }
 
 /* CONTENT */
+.page-minecraft-content .container-page {
+    width: 100%;
 
+    margin-top: 4rem;
+}
+
+.page-minecraft-content .container-page .card {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.page-minecraft-content .container-page .card {
+    margin-left: 3rem;
+}
+
+/* game-container */
+.page-minecraft-content .game-container {
+    padding: 0 9rem 0 9rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    color: rgb(220, 223, 250);
+}
+
+.page-minecraft-content .game-container .img-fluid {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.page-minecraft-content .game-container .img-fluid:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.page-minecraft-content .game-container p a {
+    color: #84c94c;
+}
+
+/* community-stream-container */
+.page-minecraft-content .community-stream {
+    display: flex;
+    justify-content: center;
+}
+
+.page-minecraft-content .community-stream-container {
+    width: 90%;
+    padding: 3.5rem 7.5rem;
+    
+    border-radius: .8rem;
+
+    background-color: rgb(226, 226, 240);
+}
