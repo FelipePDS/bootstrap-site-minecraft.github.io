@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 /* scrollbar */
 ::-webkit-scrollbar-track {
     background-color: #1c1d26;
@@ -22,7 +18,16 @@ html {
 }
 
 .page-minecraft-content {
+    width: 99vw;
     background: url(../../images/bg-body.png);
+}
+
+.page-minecraft-content .link-color-green {
+    color: #84c94c;
+}
+
+.page-minecraft-content .card {
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 /* navbar */
@@ -226,10 +231,6 @@ html {
 }
 
 .page-minecraft-content .container-page .card {
-    background-color: rgba(0, 0, 0, 0.65);
-}
-
-.page-minecraft-content .container-page .card {
     margin-left: 3rem;
 }
 
@@ -237,7 +238,7 @@ html {
 .page-minecraft-content .game-container {
     padding: 0 9rem 0 9rem;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
 
     color: rgb(220, 223, 250);
 }
@@ -254,21 +255,80 @@ html {
     transform: scale(1.1);
 }
 
-.page-minecraft-content .game-container p a {
-    color: #84c94c;
-}
-
 /* community-stream-container */
-.page-minecraft-content .community-stream {
-    display: flex;
-    justify-content: center;
+.page-minecraft-content .community-stream-container {
+    padding: 4rem 11.5rem;
 }
 
-.page-minecraft-content .community-stream-container {
-    width: 90%;
-    padding: 3.5rem 7.5rem;
-    
-    border-radius: .8rem;
+.page-minecraft-content .community-stream-container .card-main {
+    background-color: #1c1d26 !important;
+    border: 1px solid rgba(0, 0, 0, 0.125);
 
-    background-color: rgb(226, 226, 240);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.65);
+}
+
+.page-minecraft-content .community-stream-container .card-main .card-center {
+    display: flex;
+
+    margin: 1rem 0;
+}
+
+.page-minecraft-content .community-stream-container .card-main .card-center .space-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-minecraft-content .community-stream-container .card-main .card-center .space-items .btn {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0;
+    border: thin;
+
+    -webkit-box-shadow: 0 -4px rgba(27, 110, 7, 0.5) inset, 0 4px rgba(97, 238, 32, 0.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset;
+    box-shadow: 0 -4px rgba(21,108,0,.5) inset, 0 4px rgba(100,253,31,.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset;
+
+    transition: all .2s;
+}
+
+.page-minecraft-content .community-stream-container .card-main .card-center .space-items .btn:hover {
+    -webkit-box-shadow: 0 -4px rgba(27, 110, 7, 0.5) inset, 0 4px rgba(97, 238, 32, 0.99) inset, -4px 0 rgba(100,253,31,.5) inset, 4px 0 rgba(21,108,0,.5) inset;
+    box-shadow: 0 -4px rgba(15, 70, 2, 0.5) inset, 0 4px rgba(40, 167, 70, 0.99) inset, -4px 0 rgba(40, 167, 70, 0.5) inset, 4px 0 rgba(15, 70, 2, 0.5) inset;
+}
+
+.page-minecraft-content .community-stream-container .card-main .card-center .card {
+    cursor: pointer;
+    transition: .2s;
+
+    margin: 0 25px;
+}
+
+.page-minecraft-content .community-stream-container .card-main .card-center .card:hover {
+    border-color: #84c94c;
+}
+
+/* footer */
+.page-minecraft-content .page-footer {
+    background-color:#0a0a0d;
+}
+
+.page-minecraft-content .page-footer .container a {
+    color: white;
+}
+
+.page-minecraft-content .page-footer .footer-copyright {
+    background-color: #17181f;
+    color: rgba(255,255,255,0.6);
+}
+
+.page-minecraft-content .page-footer .container .btn-outline-white {
+    color: white;
+    border-radius: 10em;
+    border: 2px solid white;
+    padding: 10px 30px;
 }

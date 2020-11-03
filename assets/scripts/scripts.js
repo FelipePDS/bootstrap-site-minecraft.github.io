@@ -1,3 +1,4 @@
+// DROPDOWN
 const itemActive = document.querySelector('.active .nav-link');
 const itemActiveImgContent = itemActive.querySelector('img');
 
@@ -21,13 +22,14 @@ dropdown.addEventListener('mouseout', () => {
     dropdownMenu.style.display = 'none';
 });
 
+// SCROLL MOOTH
 (function($) {
-    $('.nav-item .nav-link').click(function(e) {
+    $('.internal-link a').click(function(e) {
         e.preventDefault();
         var id = $(this).attr('href'),
                 targetOffset = $(id).offset().top;
         $('html, body').animate({
-            scrollTop: targetOffset
-        }, 500)
+            scrollTop: targetOffset - 120
+        }, 400)
     });
 })(jQuery);
