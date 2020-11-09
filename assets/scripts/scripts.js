@@ -1,4 +1,4 @@
-// DROPDOWN
+// GIF ANIMATE
 const itemActive = document.querySelector('.active .nav-link');
 const itemActiveImgContent = itemActive.querySelector('img');
 
@@ -10,6 +10,7 @@ itemActive.addEventListener('mouseout', () => {
     itemActiveImgContent.setAttribute('src', 'assets/images/icons/Chest.png');
 });
 
+// DROPDOWN
 const dropdown = document.querySelector('.dropdown')
 const dropdownButton = document.querySelector('.dropdown-toggle');
 const dropdownMenu = document.querySelector('.dropdown-menu');
