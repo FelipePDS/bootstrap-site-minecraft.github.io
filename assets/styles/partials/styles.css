@@ -15,6 +15,7 @@
 }
 ::-webkit-scrollbar-button {
     scrollbar-arrow-color: black;
+    height: 2rem;
 }
 
 .page-minecraft-content {
@@ -40,7 +41,7 @@
     right: 0;
     left: 0;
     
-    z-index: 200;
+    z-index: 1050;
 
     padding: .9rem 5.5rem;
 
@@ -294,8 +295,19 @@
     margin: 1rem 0;
 }
 
-.page-minecraft-content .community-stream-container .card-main .card-center audio+audio {
-    margin-top: 1rem;
+.page-minecraft-content .community-stream-container .card-main .card-center .contact input, .page-minecraft-content .community-stream-container .card-main .card-center .contact textarea {
+    background-color: #12131b;
+    border-color: #0f0f16;
+}
+
+.page-minecraft-content .community-stream-container .card-main .card-center .contact textarea {
+    min-height: 3rem;
+    max-height: 17rem;
+}
+
+.page-minecraft-content .community-stream-container .card-main .card-center .contact .input-group-text {
+    background-color: #11121a;
+    border-color: #0f0f16;
 }
 
 .page-minecraft-content .community-stream-container .card-main .card-center .space-items {
@@ -368,4 +380,20 @@
     border-radius: 10em;
     border: 2px solid white;
     padding: 10px 30px;
+}
+
+/* alert play music */
+.page-minecraft-content .alert-play-music {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1000;
+
+    background-color: #0e0e13;
+}
+
+.page-minecraft-content .alert-play-music ul {
+    margin-right: 1rem;
 }

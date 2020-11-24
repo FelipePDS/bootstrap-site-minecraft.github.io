@@ -25,7 +25,7 @@
     <link rel="icon" href="assets/images/icons/favicon.png">
 </head>
 
-<body class="page-minecraft-content">
+<body class="page-minecraft-content" onload="loadPage()">
 
   <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -52,7 +52,7 @@
               data-aos-duration="600"
               data-aos-delay="300"
             >
-              <a class="nav-link" href="index.html"> 
+              <a class="nav-link reload" href="index.html"> 
                   <img src="assets/images/icons/Chest.png" alt="Home Minecraft">
                   Home
                   <span class="sr-only">(current)</span>
@@ -305,37 +305,100 @@
         </div>
       </div>
     </div>
+  
+  <!-- FORM -->
+    <section>
+      <div class="community-stream-container" id="community">
+        <div class="card-main card text-center bg-dark text-white">
+          <div class="card-header">
+            Entrar em contato
+          </div>
+          <div class="card-center justify-content-center carousel slide carousel-multi-item" id="multi-item-example" data-ride="carousel">
 
-    <div class="community-stream-container" id="community">
-      <div class="card-main card text-center bg-dark text-white">
-        <div class="card-header">
-          Musiquinhas do minecraft
-        </div>
-        <div class="card-center justify-content-center carousel slide carousel-multi-item" id="multi-item-example" data-ride="carousel">
-          <div class="d-flex flex-column">
+            <form class="needs-validation flex-column justify-content-center contact" novalidate>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustom01">Endereço</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Endereço" required>
+                  <div class="valid-feedback">
+                    Boa parceiro!
+                  </div>
+                  <div class="invalid-feedback">
+                    Digite um endereço.
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustom02">Telefone</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Telefone" required>
+                  <div class="valid-feedback">
+                    Boa parceiro!
+                  </div>
+                  <div class="invalid-feedback">
+                    Digite seu número de telefone.
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustomUsername">Email</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    </div>
+                    <input type="email" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                    <div class="valid-feedback">
+                      Boa parceiro!
+                    </div>
+                    <div class="invalid-feedback">
+                      Digite seu e-mail.
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-            <audio controls>
-              <source src="assets/audios/02.mp3" type="audio/mpeg">
-            </audio>
-            <audio controls>
-              <source src="assets/audios/01.mp3" type="audio/mpeg">
-            </audio>
-            <audio controls>
-              <source src="assets/audios/03.mp3" type="audio/mpeg">
-            </audio>
-            <audio controls>
-              <source src="assets/audios/04.mp3" type="audio/mpeg">
-            </audio>
+              <div class="d-flex justify-content-center">
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom03">Mensagem</label>
+                  <textarea class="form-control" id="validationCustom03" placeholder="Digite sua mensagem..." required></textarea>
+                  <div class="valid-feedback">
+                    Boa parceiro!
+                  </div>
+                  <div class="invalid-feedback">
+                    Digite a mensagem.
+                  </div>
+                </div>
+              </div>
 
+              <button class="btn btn-success" type="submit" style="width: 7rem;">Enviar</button>
+            </form>
+            
+            <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+              'use strict';
+              window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                  form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                  }, false);
+                });
+              }, false);
+            })();
+            </script>
+          </div>
+          <div class="card-footer text-muted">
+            Nos contate algo para adionar na comunidade &nbsp;<i class="far fa-comments"></i>
           </div>
         </div>
-        <div class="card-footer text-muted">
-          Escute as musiquinhas do game &nbsp;<i class="fa fa-headphones-alt"></i>
-        </div>
       </div>
-    </div>
+    </section>
 
-  <!-- FOOTER -->
+  <!-- FOOTER's -->
     <footer class="page-footer font-small unique-color-dark pt-4 text-white">
 
       <div class="container">
@@ -354,6 +417,34 @@
       <div class="footer-copyright text-center py-3">&copy; 2020 Copyright:
         <a href="https://felipepds.github.io/-personal-website.github.io/" class="link-color-green" target="_blank"> FelipePDS</a>
       </div>
+
+    </footer>
+
+    <footer class="page-footer font-small unique-color-dark pt-4 text-white alert-play-music">
+
+      <div class="container d-flex flex-row justify-content-center align-items-center">
+
+        <ul class="list-unstyled list-inline text-center py-2">
+          <li class="list-inline-item">
+            <h5 class="mb-1"><i class="fa fa-headphones-alt"></i> &nbsp;Tocar trilha sonora do Game?</h5>
+          </li>
+          <li class="list-inline-item">
+            <button class="btn btn-outline-white btn-rounded play-music" data-toggle="tooltip" data-placement="top" title="Play Na Música">
+              <i class="fa fa-play"></i>
+            </button>
+          </li>
+          <li class="list-inline-item">
+            <button class="btn btn-outline-white btn-rounded dont-play-music" data-toggle="tooltip" data-placement="top" title="Fechar Aviso">
+              <i class="fa fa-times"></i>
+            </button>
+          </li>
+        </ul>
+
+      </div>
+
+      <audio id="firstPlay" loop="true" controls style="display: none;">
+        <source src="assets/audios/02.mp3" type="audio/mpeg">
+      </audio>
 
     </footer>
  
@@ -383,5 +474,4 @@
     </script>
 
 </body>
-
 </html>

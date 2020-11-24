@@ -34,3 +34,18 @@ dropdown.addEventListener('mouseout', () => {
         }, 400)
     });
 })(jQuery);
+
+// PLAY MUSIC
+const music = document.querySelector("#firstPlay");
+const buttonPlayMusic = document.querySelector('.play-music');
+const buttonDontPlayMusic = document.querySelector('.dont-play-music');
+const alertPlayMusic = document.querySelector('.alert-play-music');
+
+buttonPlayMusic.addEventListener('click', () => {
+  music.play();
+  alertPlayMusic.style.display = 'none';
+})
+
+buttonDontPlayMusic.addEventListener('click', () => {
+  alertPlayMusic.style.display = 'none';
+})
