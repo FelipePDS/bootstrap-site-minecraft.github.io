@@ -1,3 +1,3 @@
 # bootstrap-site-minecraft.github.io
-Minecraft site built with bootstrap <br>
+Minecraft website built with bootstrap, js and html following the school's technical course <br>
 <a href="https://felipepds.github.io/bootstrap-site-minecraft.github.io/">Site</a>
