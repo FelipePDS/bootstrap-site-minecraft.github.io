@@ -1,3 +1,3 @@
 # bootstrap-site-minecraft.github.io
-https://felipepds.github.io/bootstrap-site-minecraft.github.io/
-minecraft site built with bootstrap
+Minecraft site built with bootstrap
+<a href="https://felipepds.github.io/bootstrap-site-minecraft.github.io/">Site</a>
