@@ -4,3 +4,5 @@
 <p>Minecraft website built with <a href="https://getbootstrap.com/">Bootstrap</a>, CSS3, JS and HTML5 following the guidelines of the school's technical course.</p> <br>
 
 <a href="https://felipepds.github.io/bootstrap-site-minecraft.github.io/">Site here</a>
+
+<p>&copy; FelipePDS</p>
