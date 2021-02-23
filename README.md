@@ -1,4 +1,4 @@
-# WEBSITE MINECRAFT BUILT WITH BOOTSTRAP
+# <h1 align="center">WEBSITE MINECRAFT BUILT WITH BOOTSTRAP</h1>
 <p align="center"><img src="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/assets/images/icons/favicon.png"/></p> <br> Minecraft website built with bootstrap, js and html following the guidelines of the school's technical course. <br>
 
 <a href="https://felipepds.github.io/bootstrap-site-minecraft.github.io/">Site here</a>
