@@ -5,4 +5,5 @@
 
 <p align="right"><blockquote>Project Status: concluded :heavy_check_mark:</blockquote></p>
 
-<p align="center">&copy; FelipePDS &bull; <a href="https://felipepds.github.io/bootstrap-site-minecraft.github.io/">Site here</a></p>
+<h2 align="center">License</h2>
+<p align="center">MIT License &nbsp;&bull;&nbsp; &copy; FelipePDS &nbsp;&bull;&nbsp; <a href="https://felipepds.github.io/bootstrap-site-minecraft.github.io/">Site here</a></p>
