@@ -18,7 +18,7 @@
 
 ```bash
 # clone project
-$ git clone 
+$ git clone https://github.com/FelipePDS/minecraft-in-bootstrap.github.io.git
 
 # in the index.html file, access the page
 ```
