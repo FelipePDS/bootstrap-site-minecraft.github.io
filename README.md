@@ -10,7 +10,7 @@
 <h2 align="center">Clone The Project</h2>
 <p align="center">Alguma coisa</p>
 
-<h2 align="center"Technologies</h2>
+<h2 align="center">Technologies</h2>
 <p align="center">Alguma coisa</p>
 
 <p align="right"><blockquote>Project Status: concluded :heavy_check_mark:</blockquote></p>
