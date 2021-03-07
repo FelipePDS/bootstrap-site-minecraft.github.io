@@ -25,7 +25,12 @@ $ git clone
 
 <h2 align="center">Technologies</h2>
 <p align="center">
-  
+  HTML5 &bull; 
+  CSS3 &bull; 
+  Javascript <br>
+  <a href="https://getbootstrap.com/">Bootstrap</a> &bull; 
+  <a href="https://jquery.com/">Jquery</a> &bull; 
+  <a href="https://fontawesome.com/">Fontawesome</a>
 </p>
 
 <h2 align="center">License</h2>
