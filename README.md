@@ -13,7 +13,7 @@
 <p align="center">Site talking a little about :video_game: Minecraft built with <a href="https://getbootstrap.com/">Bootstrap</a>, CSS3, JS and HTML5 following the guidelines of the school's technical course.</p> 
 <blockquote>Project concluded :heavy_check_mark:</blockquote>
 
-<h2 align="center">Clone The Project</h2>
+<h2 align="center" id="clone">Clone The Project</h2>
 <blockquote>Requires git bash for the command, or download the project in zip (on the button code)</blockquote>
 
 ```bash
