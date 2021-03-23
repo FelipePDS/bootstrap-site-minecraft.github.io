@@ -1,4 +1,4 @@
-# <h1 align="center"><img src="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/assets/images/icons/git-02.png" alt="Bootstrap"/> WEBSITE MINECRAFT BUILT WITH BOOTSTRAP <img src="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/assets/images/icons/git-02.png" alt="Bootstrap"/></h1>
+# <h1 align="center">WEBSITE MINECRAFT BUILT WITH BOOTSTRAP</h1>
 <p align="center"><img src="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/assets/images/icons/favicon.png" width="100px"/></p>
 
 <h2 align="center">Summary</h2>
