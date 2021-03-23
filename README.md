@@ -34,4 +34,4 @@ $ git clone https://github.com/FelipePDS/minecraft-in-bootstrap.github.io.git
 </p>
 
 <h2 align="center">License</h2>
-<p align="center"><a href="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/LICENSE">MIT License</a> &nbsp;&bull;&nbsp; &copy; FelipePDS &nbsp;&bull;&nbsp; <a href="https://felipepds.github.io/bootstrap-site-minecraft.github.io/">Site here</a></p>
+<p align="center"><a href="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/LICENSE">MIT License</a> &nbsp;&bull;&nbsp; &copy; FelipePDS &nbsp;&bull;&nbsp; <a href="https://felipepds.github.io/bootstrap-site-minecraft">Site here</a></p>
