@@ -1,6 +1,6 @@
 # <h1 align="center">WEBSITE MINECRAFT BUILT WITH BOOTSTRAP</h1>
 
-<p align="center"><a href="https://github.com/FelipePDS/The-redemption-plage/blob/main/LICENSE"><img src="https://img.shields.io/github/license/FelipePDS/The-redemption-plage"/></a> <a href="https://felipepds.github.io/minecraft-in-bootstrap"><img src="https://img.shields.io/static/v1?label=+&message=Site&color=62B47A&style=flat&logo=+"/></a> <img src="https://img.shields.io/static/v1?label=Bootstrap&message=v4.0.0&color=7952B3&style=social&logo=bootstrap"/></p>
+<p align="center"><a href="https://github.com/FelipePDS/The-redemption-plage/blob/main/LICENSE"><img src="https://img.shields.io/github/license/FelipePDS/The-redemption-plage"/></a> <a href="https://felipepds.github.io/minecraft-in-bootstrap"><img src="https://img.shields.io/static/v1?label=+&message=Site&color=62B47A&style=for-the-badge&logo=+"/></a> <img src="https://img.shields.io/static/v1?label=Bootstrap&message=v4.0.0&color=7952B3&style=for-the-badge&logo=bootstrap"/></p>
 
 <p align="center"><img src="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/assets/images/icons/favicon.png" width="100px"/></p>
 
