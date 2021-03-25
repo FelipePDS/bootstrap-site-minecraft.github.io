@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://github.com/FelipePDS/The-redemption-plage/blob/main/LICENSE"><img src="https://img.shields.io/github/license/FelipePDS/The-redemption-plage"/></a> <img src="https://img.shields.io/static/v1?label=Bootstrap&message=v4.0.0&color=7952B3&style=flat-square&logo=bootstrap"/> <a href="https://felipepds.github.io/minecraft-in-bootstrap"><img src="https://img.shields.io/static/v1?label=+&message=Site&color=62B47A&style=flat-square&logo=+"/></a></p>
 
-<!--<p align="center"><img src="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/assets/images/icons/favicon.png" width="100px"/></p>-->
+<p align="center"><img src="https://github.com/FelipePDS/minecraft-in-bootstrap.github.io/blob/main/assets/images/icons/favicon.png" width="100px"/></p>
 
 <h2 align="center">Summary</h2>
 <p align="center">
